@@ -1,0 +1,23 @@
+@import '../../color.scss';
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.2 0.8em;
+    background-color: $dark;
+    color: white;
+
+    span {
+        padding: 0.8em;
+        cursor: pointer;
+        background-color: $solid;
+        border-radius: 0.4em;
+        transition: all 0.5;
+    }
+
+    span:hover {
+        background-color: $darkest;
+        color: white;
+    }
+
+}
