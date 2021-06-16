@@ -7,17 +7,20 @@ header {
     background-color: $dark;
     color: white;
 
-    span {
+    a {
+        all: unset;
         padding: 0.8em;
         cursor: pointer;
         background-color: $solid;
         border-radius: 0.4em;
         transition: all 0.5;
+
+        a:hover {
+            background-color: $darkest;
+            color: white;
+        }
     }
 
-    span:hover {
-        background-color: $darkest;
-        color: white;
-    }
+
 
 }

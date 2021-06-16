@@ -9,3 +9,4 @@
 - Crear paleta de colores
   
 - Crear carpeta de componentes
+- 
